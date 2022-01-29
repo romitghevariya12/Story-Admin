@@ -49,11 +49,28 @@ body {
   border-radius: 5px;
   margin-top: 30px;
 }
-
-.hader
+.navbarHeader
 {
-  height: auto;
-  background-color:  #fff;
-  box-shadow: 0px 2px 5px 2px #e7ecf7;
-  padding: 25px 50px;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+.navbarHeader .navbar-brand
+{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbarHeader .btn
+{
+  padding: 10px 30px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.navbarHeader .btn:hover
+{
+  background-color: #EFF4FD;
+  color: #30507D;
+  font-weight: 600;
 }
