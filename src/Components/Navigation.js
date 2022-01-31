@@ -9,7 +9,16 @@ export default function Navigation() {
       <button type="submit" className="btn">Log out</button>
     </nav>
 
-    <div className=""></div>
+    <div className="sidebar">
+      <ul>
+        <li className="list-item active">
+          <a href="#" className="">Trending</a></li>
+        <li className="list-item">
+          <a href="#" className="">Collection</a>
+        </li>
+      </ul>
+    </div>
+
     </>
   );
 }
