@@ -1,0 +1,82 @@
+.upload-model .modal-dialog {
+     max-width: 600px;
+ }
+
+ .upload-model .modal-dialog .modal-content {
+     padding: 10px 30px;
+     border-radius: 30px; 
+ }
+
+ .upload-model .modal-dialog .modal-content .modal-header, .upload-model .modal-dialog .modal-content .modal-footer {
+     border: none;
+ }
+
+ .upload-model .modal-dialog .modal-header, .modal-dialog .modal-body, .upload-model .modal-dialog .modal-footer {
+     padding: 20px 0;
+ }
+
+ .upload-model .modal-dialog .modal-header .btn-close:focus {
+     box-shadow: none;
+ }
+
+ .upload-model .modal-dialog .modal-footer .btn-3 {
+     border-radius: 8px;
+     background-color: #267FFF;
+     color: #fff;
+     margin: 0 0 0 20px;
+ }
+
+ .upload-model .modal-dialog .modal-footer .btn-3:hover {
+     background-color: #267FFF;
+     color: #fff;
+ }
+
+ .upload-model .modal-dialog .modal-footer .btn-2 {
+     border-radius: 8px;
+ }
+
+ .upload-model .modal .modal-body .form-control {
+     width: 0.1px;
+     height: 0.1px;
+     opacity: 0;
+     overflow: hidden;
+     position: absolute;
+     z-index: -1;
+ }
+
+ .upload-model .modal .modal-body .form-label {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     border-radius: 10px;
+     text-align: center;
+     padding: 50px 0;
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: -0.2px;
+     line-height: 16px;
+     cursor: pointer;
+     border: 2px dashed #CBD9F8;
+ }
+
+ .upload-model .modal .modal-body .form-label h5 {
+     color: #30507D;
+     font-weight: 600;
+     margin: 0 0 30px 0;
+ }
+
+ .upload-model .modal .modal-body .form-label .text {
+     color: #30507D;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .upload-model .modal .modal-body .form-label .text span {
+     font-weight: 600;
+     text-decoration: underline;
+ }
+
+ .upload-model .modal .modal-body .form-label .file-name {
+     color: #CBD9F8;
+     font-weight: 400;
+ }

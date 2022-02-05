@@ -1,6 +1,7 @@
 import React from 'react';
+import './Sidebar.css';
 
-export default function Siddebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar">
         <ul>

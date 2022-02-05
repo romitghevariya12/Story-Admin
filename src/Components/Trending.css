@@ -1,0 +1,59 @@
+.page-trending{
+    width: calc(100% - 250px);
+    padding: 30px;
+    height: calc(100vh - 70px);
+    overflow: auto;
+  }
+  .page-trending .navbar
+  {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  .page-trending .navbar .title
+  {
+    width: auto;
+  }
+  .page-trending .title h3
+  {
+    margin: 0;
+    font-weight: 600;
+  }
+  .page-trending .btn:hover {
+    background-color: #E5EDFF;
+    color: #30507D;
+  }
+  .page-trending .btn:focus
+  {
+    box-shadow: none;
+    background-color: #E5EDFF;
+  }
+  
+  .trending .page-trending .banner-photo
+  {
+    width: 25%;
+  }
+  .page-trending .banner-photo .photo
+{
+  max-width: 95%;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #f1f4fc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.page-trending .banner-photo .photo .icon
+{
+  border: 2px solid #CBD9F8;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 15px 15px 0;
+
+}

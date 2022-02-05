@@ -1,0 +1,46 @@
+.login-model {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 2px #e7ecf7;
+  }
+  
+  .login .row {
+    justify-content: center;
+  }
+  
+  .login h2 {
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #30507D;
+  }
+  
+  .login .email .form-label, .login .password .form-label {
+    font-weight: 500;
+  }
+  
+  .login .email .form-control, .login .password .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #CBD9F8;
+    color: #30507D;
+  }
+  
+  .login .email .form-control:focus, .login .password .form-control:focus {
+    box-shadow: 0px 2px 5px 2px #e7ecf7;
+  }
+  
+  .login .btn {
+    background-color: #267FFF;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 30px;
+  }

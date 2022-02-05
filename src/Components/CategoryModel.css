@@ -1,0 +1,13 @@
+.email .form-label 
+{
+    font-weight: 500;
+  }
+  
+.email .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #CBD9F8;
+    color: #30507D;
+  }
+  
