@@ -18,6 +18,13 @@
     margin: 0;
     font-weight: 600;
   }
+  .page-trending .btn {
+    padding: 10px 30px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+  }
   .page-trending .btn:hover {
     background-color: #E5EDFF;
     color: #30507D;

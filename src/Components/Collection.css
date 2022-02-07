@@ -1,0 +1,66 @@
+.page-collection {
+    width: calc(100% - 250px);
+    padding: 30px;
+    height: calc(100vh - 70px);
+    overflow: auto;
+  }
+  .page-collection .navbar
+  {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+  .page-collection .navbar .title
+  {
+    width: auto;
+  }
+  .page-collection .title h3
+  {
+    margin: 0;
+    font-weight: 600;
+  }
+  .page-collection .btn 
+  {
+    padding: 10px 30px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+  }
+  .page-collection .btn:hover {
+    background-color: #E5EDFF;
+    color: #30507D;
+  }
+  .page-collection .btn:focus
+  { 
+    box-shadow: none;
+    background-color: #E5EDFF;
+  }
+  
+  .page-collection .category-list
+  {
+    width: 25%;
+  }
+  .page-collection .category-list .category-name {
+  max-width: 95%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px #f1f4fc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.page-collection .category-list .category-name .icon
+{
+  border: 2px solid #CBD9F8;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}   

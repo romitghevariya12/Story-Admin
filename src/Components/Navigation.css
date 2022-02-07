@@ -10,7 +10,7 @@
     display: flex;
   }
   
-  .navbarHeader .btn, .page-trending .btn {
+  .navbarHeader .btn {
     padding: 10px 30px;
     border: 0;
     font-size: 18px;
