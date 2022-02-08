@@ -1,11 +1,14 @@
 import React from 'react';
 import './Trending.css';
 import UploadModel from './Uploadmodel'
+import Navigation from './Navigation'
 import Sidemenu from './Sidebar'
 import Deleteicon from '../delete-icon.svg'
 
 export default function Trending() {
   return (
+    <>
+    <Navigation />
     <div className="d-lg-flex trending">
       <Sidemenu />
         <div className="page-trending">
@@ -23,5 +26,6 @@ export default function Trending() {
         </div>
       </div>
     </div>
+    </>
   );
 }

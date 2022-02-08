@@ -1,0 +1,73 @@
+.category-edit-model .modal-dialog {
+    max-width: 600px;
+  }
+  
+  .category-edit-model .modal-dialog .modal-content {
+    padding: 10px 30px;
+    border-radius: 30px; 
+  }
+  
+  .category-edit-model .modal-dialog .modal-content .modal-header, .category-edit-model .modal-dialog .modal-content .modal-footer {
+    border: none;
+  }
+  
+  .category-edit-model .modal-dialog .modal-header, .modal-dialog .modal-body, .category-edit-model .modal-dialog .modal-footer {
+    padding: 20px 0;
+  }
+  
+  .category-edit-model .modal-dialog .modal-header .btn-close:focus {
+    box-shadow: none;
+  }
+  
+  .category-edit-model .modal-dialog .modal-footer .btn-3 {
+    border-radius: 8px;
+    background-color: #267FFF;
+    color: #fff;
+    margin: 0 0 0 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  
+  .category-edit-model .modal-dialog .modal-footer .btn-3:hover {
+    background-color: #267FFF;
+    color: #fff;
+  }
+  
+  .category-edit-model .modal-dialog .modal-footer .btn-2 {
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .category-edit-model .form-label {
+    font-weight: 500;
+  }
+  
+  .category-edit-model .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #CBD9F8;
+    color: #30507D;
+  }
+  
+  .category-edit-model .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #267FFF;
+  }
+  .category-edit-model .modal-body .form-check
+  {
+    padding: 0px;
+    margin: 0 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .category-edit-model .modal-body .form-check .form-check-input
+  {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+  }

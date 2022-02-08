@@ -26,6 +26,10 @@
     font-weight: 500;
     border-radius: 50px;
   }
+  .page-collection .category-list .btn
+  {
+    padding: 0;
+  }
   .page-collection .btn:hover {
     background-color: #E5EDFF;
     color: #30507D;
@@ -63,4 +67,4 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-}   
+}  

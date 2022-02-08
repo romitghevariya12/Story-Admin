@@ -1,11 +1,15 @@
 import React from 'react';
 import './Collection.css';
 import CategoryModel from './CategoryModel'
+import CategoryEditModel from './CategoryeditModel'
+import Navigation from './Navigation'
 import Sidemenu from './Sidebar'
 import Editicon from '../edit-icon.svg'
 
 export default function Collection() {
   return (
+    <>
+    <Navigation />
     <div className="d-lg-flex collection">
       <Sidemenu />
       <div className="page-collection">
@@ -18,11 +22,13 @@ export default function Collection() {
           <div className="category-list">
             <div className="category-name">
               Valentine's Day
-              <a className="icon" href="#"><img src={Editicon} /></a> 
+              <button type="button" class="btn icon" data-bs-toggle="modal" data-bs-target="#categoryedit" data-bs-whatever="@mdo"><img src={Editicon} /></button>
             </div>
+            <CategoryEditModel />
           </div>
         </div>
       </div>
     </div>
+    </>
   );
 }
