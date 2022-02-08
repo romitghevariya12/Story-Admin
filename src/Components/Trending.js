@@ -14,7 +14,7 @@ export default function Trending() {
         <div className="page-trending">
           <div className="navbar title">
             <h3>Trending</h3>
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Trending Photos</button>
+          <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Trending Photos</button>
         </div>
         <UploadModel />
         <div className="row">

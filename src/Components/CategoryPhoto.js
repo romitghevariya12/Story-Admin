@@ -14,7 +14,7 @@ export default function CategoryPhoto() {
           <div className="page-category">
               <div className="navbar title">
                   <h3>Valentine's Day</h3>
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Photos</button>
+                  <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Photos</button>
               </div>
               <UploadModel />
               <div className="row">

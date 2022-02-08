@@ -15,14 +15,14 @@ export default function Collection() {
       <div className="page-collection">
         <div className="navbar title">
           <h3>Collection</h3>
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Category Name</button>
+          <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#bannerupload" data-bs-whatever="@mdo">Add Category Name</button>
         </div>
         <CategoryModel />
         <div className="row">
           <div className="category-list">
             <div className="category-name">
               Valentine's Day
-              <button type="button" class="btn icon" data-bs-toggle="modal" data-bs-target="#categoryedit" data-bs-whatever="@mdo"><img src={Editicon} /></button>
+              <button type="button" className="btn icon" data-bs-toggle="modal" data-bs-target="#categoryedit" data-bs-whatever="@mdo"><img src={Editicon} /></button>
             </div>
             <CategoryEditModel />
           </div>
